@@ -1,0 +1,51 @@
+.NevSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 100000;
+}
+.NevBar{
+    background-color: blueviolet;
+    width: 100Vw;
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:0%;
+}
+.appTitle{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.nevLink{
+    text-decoration: none;
+    color: white;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+    justify-content: space-evenly;
+}
+.ThemeButton{
+    background-color: blueviolet;
+    border: none;
+    color: var(--themeColor);
+    font-size: 20px;
+    width: 7vw;
+}
+
+@media (max-width:768px) {
+    .NevBar{
+        justify-content: space-around;
+    }
+    .appTitle{
+        font-size: 20px;
+    }
+    .links{
+        width: 40vw;
+    }
+}

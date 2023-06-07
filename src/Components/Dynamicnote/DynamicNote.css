@@ -1,0 +1,59 @@
+.DynamicNote{
+    margin-top: 10vh;
+    color: var(--themeColor);
+    background-color: var(--FormButtonBg);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.notelable{
+    background-color: var(--themeColor);
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.DynamicNote h2{
+    margin-bottom: 20px;
+}
+.DynamicNote p{
+    margin-top: 20px;
+}
+.dynamicButonSet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+}
+.dynamicButonSet p{
+    width: 75%;
+    color: var(--FormButtonBg);
+    font-size: 16px;
+}
+@media (max-width:768px) {
+    .dynamicButonSet p{
+        width: 70%;
+        font-size: 12px;
+    }
+}
+.deleteButton{
+    background-color: var(--themeColor);
+    text-decoration: none;
+    color: black;
+    /* color: var(--FormButtonBg); */
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

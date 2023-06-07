@@ -1,0 +1,45 @@
+.SearchSection{
+    margin-top: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-out;
+    margin-bottom: -15vh;
+}
+.SearchSectionHide{
+    display: none;
+    transition: all 0.5s ease-out;
+}
+.SearchForm input{
+    width: 80vw;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    color: var(--SearchBorder);
+    outline: none;
+    border-top: 2px solid var(--SearchBorder);
+    border-bottom: 2px solid var(--SearchBorder);
+    border-left: 2px solid var(--SearchBorder);
+    border-right: none;
+    font-family: 'Raleway', sans-serif;
+}
+.SearchForm button{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border-top: 2px solid var(--SearchBorder);
+    border-bottom: 2px solid var(--SearchBorder);
+    border-right: 2px solid var(--SearchBorder);
+    border-left: none;
+    color: var(--SearchBorder);
+    font-family: 'Raleway', sans-serif;
+}
+
+::placeholder{
+    color: var(--SearchBorder);
+}

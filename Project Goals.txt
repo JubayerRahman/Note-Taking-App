@@ -1,0 +1,30 @@
+Name of the project is: Note taking app
+
+Objective:
+This is a note taking app, my main goal is to make 100 react application in react js with good 
+ui(user Interface). I am preety sure I will be a nice frontEnd Developer. Here are a small plan of 
+what this app should do.
+
+=> What are the goals of this app?
+    It will be a app where you can add your basic daily notes in your day to day life. 
+    and they will be saved untill you want to delete them remove them.
+
+=>features:
+  1) I want to add a search function in this app so if a user have a lot of nots he can search the 
+     title of his desired note the note will show on the top.
+  2) I want to add pagination in this app so that if someone addes a lot of notes it will 
+     automaticely devide into another page.
+  3) I also want to add a special feature so that it a user wants he can change the view option
+     of the note showcase layout.
+
+=>Besic Feature:
+  There will be some besic Features like: Responsive Layout, Delete Featue, and Edit Function.
+
+=>Loyout Plans:
+  I am thinking to start the page with the title and them next to it the search fiels and after thai 
+  i want to add the note list Section. There I will add a empty field with a plus symbal to add a
+  options for new note. It there are no notes the list will have only one item the add new fiel. if
+  it have notes they will show before the "Add New"  options.
+  In the add section I will add 2 fields the first one will be the title fiels and the 2nd onw will 
+  be the details fiels. When you try to see the note It will show Like a blog post. The Title will
+  be in bold and the note will be in regular fonts. I want to use Raleway.
